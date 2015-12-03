@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="fuwuNeirong">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="330"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XVN-HX-vta">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="15"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RM-GA-FAb">
+                            <rect key="frame" x="0.0" y="14" width="320" height="1"/>
+                            <color key="backgroundColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.93725490199999995" green="0.91764705879999997" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="wordWrap" numberOfLines="15" baselineAdjustment="alignBaselines" minimumFontSize="9" translatesAutoresizingMaskIntoConstraints="NO" id="AFB-rG-EL6" customClass="CunsomLabel">
+                    <rect key="frame" x="20" y="23" width="280" height="299"/>
+                    <string key="text">内热的撒娇的卢卡斯金德拉克叫阿说的辣椒素来得及啊是亮点撒来得及阿拉斯加拉萨觉得路径阿萨德路径撒了看见撒了看的历史啊快到家了撒娇的拉萨决定 大肆狂欢即将开很快就会立刻就犯困陆海空军上的发挥科技大厦疯狂的精神恢复看电视恢复看电视恢复看电视减肥空间稻盛和夫空间的还是开发计划的开始恢复看电视剧恢复看电视剧发挥空间的时刻觉得舒服好看的数据和疯狂的精神罚款决定是否好看觉得舒服看到手机话费肯德基和丹江口市发挥快点结束罚款决定恢复空间的时候发电话卡的是否好看但是分开的开始啦好空间阿萨德就阿首都空间挥洒空间大会上卡夹电话卡斯的好看三大升级换代空间撒谎的空间撒谎的健康撒谎的看撒机会</string>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.34509803921568627" green="0.31764705882352939" blue="0.33725490196078434" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="contentLb" destination="AFB-rG-EL6" id="PDW-26-9es"/>
+                <outlet property="lineBgkVC" destination="XVN-HX-vta" id="9YQ-fa-fQE"/>
+            </connections>
+            <point key="canvasLocation" x="234" y="384"/>
+        </view>
+    </objects>
+</document>

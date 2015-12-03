@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  com.yizan.vso2o.business
+//
+//  Created by zzl on 15/4/13.
+//  Copyright (c) 2015年 zy. All rights reserved.
+//
+
+#ifndef com_yizan_vso2o_business_PrefixHeader_pch
+#define com_yizan_vso2o_business_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import "CustomDefine.h"
+#import "NSString+CheckEmpty.h"
+#import "IQKeyboardManager.h"
+#import "SVProgressHUD.h"
+#import "UIImageView+WebCache.h"
+#import "UIView+SuperView.h"
+#import "Util.h"
+#import "dateModel.h"
+#import "UIButton+WebCache.h"
+
+#endif
+
+#define QQMAPKEY    @"E6KBZ-UPXR4-5XDU2-XIN4O-GFC7V-RZFX7"
+
+#define WXPAYURL    @"http://vso2o.jikesoft.com/pay/callback/weixin"
+
+ 
+
+#endif
